@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61BACD41D5188F20015FC72 /* ZJRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61BACD31D5188F20015FC72 /* ZJRefreshControl.swift */; };
 		A64201631D5083C500D93F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64201621D5083C500D93F82 /* AppDelegate.swift */; };
 		A64201651D5083C500D93F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64201641D5083C500D93F82 /* ViewController.swift */; };
 		A64201681D5083C500D93F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64201661D5083C500D93F82 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A61BACD31D5188F20015FC72 /* ZJRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJRefreshControl.swift; sourceTree = "<group>"; };
 		A642015F1D5083C400D93F82 /* AnimationCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64201621D5083C500D93F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64201641D5083C500D93F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				A64201641D5083C500D93F82 /* ViewController.swift */,
+				A61BACD31D5188F20015FC72 /* ZJRefreshControl.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				A64201891D50861400D93F82 /* Entry.swift in Sources */,
 				A64201651D5083C500D93F82 /* ViewController.swift in Sources */,
+				A61BACD41D5188F20015FC72 /* ZJRefreshControl.swift in Sources */,
 				A64201851D50854700D93F82 /* EntryCell.swift in Sources */,
 				A64201631D5083C500D93F82 /* AppDelegate.swift in Sources */,
 			);
@@ -432,6 +436,7 @@
 				A642017E1D5083C500D93F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A642017F1D5083C500D93F82 /* Build configuration list for PBXNativeTarget "AnimationCollectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				A64201811D5083C500D93F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
